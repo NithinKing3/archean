@@ -988,7 +988,7 @@ function test() {
      test();
      setTimeout(function func(){
            window.location.href="pdf2.html";
-        }, 50);
+        }, 100);
                         
 
       
