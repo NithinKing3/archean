@@ -985,6 +985,7 @@ function test() {
      localStorage.setItem("bills",JSON.stringify(bills));*/
     
      localStorage.setItem("row",timestamp);
+     test();
                          window.location.href="pdf2.html";
 
       
