@@ -986,7 +986,10 @@ function test() {
     
      localStorage.setItem("row",timestamp);
      test();
-                         window.location.href="pdf2.html";
+     setTimeout(function func(){
+           window.location.href="pdf2.html";
+        }, 50);
+                        
 
       
   }
